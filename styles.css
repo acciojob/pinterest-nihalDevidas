@@ -8,6 +8,7 @@
 	display:flex;
 	/*border:1px solid;*/
 	width:850px;
+	border-sizing:box-border;
 }
 .content-div{
 	display:flex;
@@ -38,10 +39,11 @@ h1{
 p{
 	margin-bottom:15px;
 }
-button{
+a{
 	border:none;
 	border-radius:3px;
 	background-color:red;
 	color:white;
+	text-decoration:none;
 	padding:6px;
 }

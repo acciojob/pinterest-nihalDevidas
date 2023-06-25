@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.hero{
+	display:flex;
+	/*border:1px solid;*/
+	width:850px;
+}
+.content-div{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+	text-align:center;
+
+	padding:18px;
+}
+
+
+.img-div >img{
+   width:inherit;
+	height:inherit;
+	object-fit:cover;
+}
+.img-div{
+	width:600px;
+	height:300px;
+	/*border:1px solid;*/
+}
+h1{
+	line-height:30px;
+	margin-bottom:15px;
+}
+p{
+	margin-bottom:15px;
+}
+button{
+	border:none;
+	border-radius:3px;
+	background-color:red;
+	color:white;
+	padding:6px;
+}
